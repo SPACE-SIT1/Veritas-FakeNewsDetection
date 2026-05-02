@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# System files
+.DS_Store
+
+# Data files
+*.csv
+*.xlsx
+
+# Model files
+*.pkl
+*.joblib
+
+# Generated reports / temporary files
+*.log
