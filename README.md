@@ -92,3 +92,22 @@ Veritas-FakeNewsDetection/
     ├── label_distribution.png
     ├── top_sources.png
     └── feature_importance.png
+```
+
+
+## How to Run
+
+This repository contains the Python analysis workflow, exported notebook report, visual outputs, and project documentation.
+
+The full dataset is not included due to file size and data usage/license considerations.
+
+To run the Python analysis locally, download the dataset from Kaggle, place it in the `data/` folder as `FakeNews.xlsx`, and run:
+
+```bash
+pip install -r requirements.txt
+python src/fake_or_real.py
+```
+
+## Note
+
+The full dataset is not included in this repository due to file size and data usage/license considerations. Visual outputs and documentation are provided for portfolio demonstration purposes.
